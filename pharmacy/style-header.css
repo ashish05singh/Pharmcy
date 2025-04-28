@@ -1,0 +1,160 @@
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;    
+} 
+
+.social-icons a{
+
+    margin: 1px 1px 1px 1px;
+    text-decoration: none;
+    
+}
+.social-icons{
+
+
+    font-size: 14px;
+}
+
+
+ .facebook:hover{
+    color:white;
+    background-color: blue;   
+
+}
+.twitter:hover{
+
+    color: white;
+    background-color: skyblue;
+}
+.linkedin:hover{
+
+    color: white;
+    background-color: blue;
+    }
+.instagram:hover{
+color: rgb(253, 250, 252);
+background-color:rgb(230, 53, 156);
+}
+/* ----------------------------------------------------- */
+
+.top-header{
+    background-color: #2f6c6d;
+      color:white;   
+    /* margin-right: 15px; */
+    padding: 10px;
+    
+}
+.right{
+    font-size: 14px;
+    letter-spacing: 2px;
+    float: right;
+    margin-top: -16px;
+ padding-right: 40px;
+}
+.top-header a{
+    color: white;
+    text-decoration: none;
+  
+    list-style: none;
+    /* padding-left: 20px; */
+    margin-left: 30px;
+    
+}
+.hamburger {
+    display: none; /* Hide hamburger by default */
+    cursor: pointer;
+}
+
+/* .left a {    
+    display: flex; 
+    margin: 10px 20px; 
+    
+      
+  } */
+/* ----------------------------heder sec----------------------------------------------- */
+.nav-child.child1 ul{
+    display: flex;
+}
+.dropdown { 
+    display: none;  
+}
+.nav-child ul li:hover .dropdown {
+    /* display: block;
+    visibility: visible;
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin-right: 40px; */
+    display: block;
+    position: absolute;
+    background-color: #0000006e;
+    color: white;
+    margin-top: 5px;
+    margin-left: -10px;
+    padding-top: 8px;
+    border-radius: 5px;
+    width: 10%;
+
+}
+/* .hover-page .dropdown ul li, .hover-service .dropdown ul li{
+    display: grid;
+    grid-template-columns: 1fr; 
+    display: none;
+} */
+
+
+.navheader img{
+
+    /* height: 50px; */
+width: 200px;
+}
+.navheader li {
+    /* text-decoration: none; */
+    list-style: none;
+    text-decoration: none;
+
+   
+   }
+   
+.navheader  {   
+        display: flex;
+         letter-spacing:.5px;
+        font-family:noto-sans-display, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+         justify-content: space-between;
+         padding: 10px;
+     margin-left: 40px;
+    }
+   
+    .nav-child{
+        /* margin: 10px 10px; */
+  justify-content: space-evenly;
+       
+    }
+   .navheader .child1{
+        display: flex;
+        width: 50%;
+        margin-right: 30px;
+     
+    }
+    .child1 a{
+        color:#132b2c;
+        text-decoration: none;
+    }
+
+    .navheader .child1 li{
+        margin: 10px 20px; 
+ 
+    }
+    /* .child1 :hover {
+        color: #47a2a3;
+        display: block;
+        position: absolute;
+        background-color: black;
+    } */
+    /* -------------------------------------------- */
+    

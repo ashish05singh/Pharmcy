@@ -1,0 +1,240 @@
+@media screen and (max-width: 1024px){
+    .grid-sec.res1 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+    .col2 img{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+.grid-sec.res1 {
+display: grid;
+grid-template-columns:  100% ;
+
+}
+
+.banner-sec .row{
+    width: 100%;
+    font-size: 5px ;
+   
+}
+.banner-sec{
+    /* height: 480px; */
+    width: 100%;
+}
+.banner-sec .row .col1{
+    width: 100%;
+    font-size: 10px ;
+
+}
+.banner-sec .row .col21{
+    font-size: 10px;
+}
+.banner-sec{
+    height: 420px;
+    width: 100%;
+}
+.banner-sec::after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    height: 420px;
+  width: 100%;
+}
+.col2 img{
+   width: 400px;
+    height: 410px;
+    
+}
+.col1 h1{
+    font-size: 20px;
+    line-height: 25px;
+
+}
+.col1 p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.btn{
+  
+    border-radius: 12px;   
+    width: 100px;
+    font-size: 10px;
+    
+   }
+   .card-sec-sec .card{
+       display: grid;
+       grid-template-columns: 100%;
+       margin: 10px 20px;
+   }
+   /* .card-sec-sec .card .card-sec img{
+       width: 50px;
+    } */
+    .grid-sec2 { 
+        display: grid;
+        grid-template-columns: 100%;   
+        margin-top: -30px;   
+
+    }
+    /* banner sec  */
+
+    .banner-section .banner-section-text .btn{
+        font-size: 10px;
+        padding: 10px;
+        width: 150px;
+        
+
+    }
+    /* what we offer */
+    .what-we-offer{
+        width: 100%;
+        display: block;
+        text-align: center;
+       
+      
+    }
+    .what-we-offer-sec p {
+        text-align: center;
+      
+        padding: 10px;
+
+    
+    }
+    .what-we-offer h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    
+
+
+    /* medicine-banner sec start */
+    .medicine-banner .container .banner-section-text2 p{
+font-size: 10px;
+font-weight: 400;    
+z-index: 99999;  
+}
+.medicine-banner .container .banner-section-text2 h3{
+    font-size: 15px;  
+    font-weight: 400;  
+    z-index: 99999;
+    }
+    .medicine-banner .container .banner-section-text2 .btn{
+        font-size: 10px;
+       
+        width: 150px;
+    }
+    /* who we are sec  */
+    .grid-item1-content p{
+        font-size: 13px;
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px;
+       
+    
+    
+    }
+    .grid-item1-content h2{
+
+        font-size: 30px;
+    
+       
+    
+    }
+    .grid-item1-content h4{
+        font-size: 14px;
+   
+       
+    
+    }
+    .grid-item1 .grid-item1-content .btn{
+        font-size: 10px;
+        padding: 10px;
+        width: 150px;
+    
+    }
+    .brand-logo-sec .brand-logo{
+        display: grid;
+         padding: 0px 20px;
+
+    }
+    /* < why choose us> */
+    .next-grid{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0px 20px;
+    }
+    .next{
+      
+        
+        padding: 0px 30px;
+    }
+    .icon-step i{
+       font-size: 12px;
+       height: 30px;
+       width: 30px;
+       padding: 10px 10px;
+    }
+    .next p{
+        font-size: 14px;
+        text-align: justify;
+    }
+    .next h4{
+        font-size: 15px;
+
+    }
+    .next h3{
+        font-size: 15px;
+    }
+    .next-grid-sec img{
+        width: 60%;
+      
+    }
+    .text-exp h5{
+
+        font-size: 15px;
+    }
+    /* new-grid-sec */
+    .new-grid-container .new-grid-section .new-grid1{
+        display: grid;
+        width: 100%;
+    }
+    .new-grid1{
+   
+    }
+    .new-grid-section{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0px 20px;
+    }
+    /* footer */
+    
+ .footer-section .row2{
+    display: inline-block;
+  
+   }
+
+}
+
+@media screen and (max-width: 480px){
+    .banner-sec{
+        /* height: 480px; */
+        width: 100%;
+
+    }  
+    .col2 img{
+        width: 100%;
+    }
+    .sec1{
+  
+    width: 100%;
+    }
+}
+
+

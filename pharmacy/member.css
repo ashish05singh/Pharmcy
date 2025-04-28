@@ -1,0 +1,138 @@
+.container-sec11{
+    background-image: url("./images/service.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  
+}
+.container-sec11::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* no value define  */
+    height: 100%;
+    width: 100%;
+    background-color:#20202040;
+    opacity: 0.4;
+    
+}
+.head-service{
+    color: white;
+    padding: 30px;
+    
+   
+}
+.head-service-sec{
+    z-index: 99999;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+/* ==========next text sec==============*/
+.member-sec-1{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.member-img-1{
+    /* border: 1px solid black; */
+
+}
+.member-img-1 p{
+    line-height: 30px;
+    text-align: justify;
+    padding-bottom:20px ;
+    padding-top: 20px;
+}
+
+.member-img-1 h3{
+    font-size: 38px;
+    font-weight: 500;
+    
+
+}
+.mem2-img img{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    
+}
+.mem2-text p{
+    font-size: 16px;
+font-weight: 500;
+
+
+}
+.btnn{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 150px;
+  
+}
+.mem2-img{
+    position: relative;
+    z-index: 9999;
+}
+.mem2-text {
+padding: 15px;
+/* box-shadow: black 1px 1px 5px; */
+border-radius: 10px;
+font-size: 18px;
+background-color: whitesmoke;
+color: #444;
+width: 450px;
+height: 95px;
+line-height: 25px;
+border-left: 10px solid cornflowerblue;
+margin: -20px 20px;
+z-index: 9999;
+position: absolute;
+bottom: -40px;
+right: 20px;
+}
+
+/* ====member grid=============================== */
+.member-grid{
+    display: grid;
+    grid-template-columns: 30% 65% ;
+    align-items:flex-end;
+    /* border: 1px solid black; */
+    padding: 20px;
+    
+    /* float:right ; */
+   
+}
+.member-grid-1{
+    padding: 15px;
+    line-height: 30px;
+   
+}
+.member-grid-1 p{
+    line-height: 30px;
+ 
+}
+.member-grid-1 h3{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 30px;
+}
+summary{
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}

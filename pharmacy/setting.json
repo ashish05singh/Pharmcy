@@ -1,0 +1,31 @@
+setting.html
+   {
+    "liveServer.settings.NoBrowser": true,
+    "workbench.iconTheme": "vs-minimal",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.CustomBrowser": "firefox",
+    "git.openRepositoryInParentFolders": "never",
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    },
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "json.schemas": [
+
+    ],
+    "powermode.enabled": true,
+    "powermode.combo.timeout": 0,
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.shake.enabled": false,
+    "powermode.shake.intensity": 0,
+    "powermode.presets": "simple-rift",
+    "powermode.combo.counterSize": 0,
+    "editor.stickyScroll.enabled": false,
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.hover.delay": 100,
+    "workbench.sash.hoverDelay": 100
+}
